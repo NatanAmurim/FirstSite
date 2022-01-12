@@ -1,0 +1,36 @@
+html{
+    font-size: 18px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: #4C4C4C;
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 10px 0 35px;
+    text-shadow: 1px 10px 10px  black; /*horizontal vertical raio-desfoque*/
+}
+
+p,li{
+    font-size: 16px;
+    line-height: 2; 
+    letter-spacing: 1px; /*Espaçamento entre as letras*/
+}
+
+section{
+    margin: 50px 0;
+}
+
+body{
+    width: 600px;
+    margin: 0 auto;
+    background-color: #292929;
+    padding: 10px 25px 25px 25px; /*cima direita baixo esquerda*/
+    border: 5px solid #ffffff; /*expessura tipo cor*/
+}
+
+img{
+    display: block; /*Imagens são elementos de linha, portanto não podem ter margens, por isso damos a ela a característica de bloco*/
+    margin: 0 auto;
+}
